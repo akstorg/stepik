@@ -1,4 +1,4 @@
-print('введите фигуру')
+print('')
 fig = str(input())
 # a = int(input())
 
@@ -19,3 +19,13 @@ if fig == 'треугольник':
     c = int(input())
     p = sum([a, b, c]) / 2
     print((p * (p - a) * (p - b) * (p - c)) ** 0.5)
+
+if fig == 'прямоугольник':
+    print('enter a')
+    a = int(input())
+    print('enter b')
+    b= int(input())
+    s = a*b
+    print(s)
+else:
+    print('enter right figure')
