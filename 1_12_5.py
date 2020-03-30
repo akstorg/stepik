@@ -3,12 +3,25 @@ b = int(input())
 c = int(input())
 
 
-ma = a
-if b > a and c:
 
-    ma = b
+big = a
+med = b
+small = c
 
-elif c >
+if b > a:
+    big = b
+    if c > b:
+        big = c
+
+
+
+
+
+print(big)
+
+
+
+
 
 
 
