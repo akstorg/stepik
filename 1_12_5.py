@@ -5,20 +5,20 @@ c = int(input())
 
 
 big = a
-med = b
-small = c
 
-if b > a:
+if b >= a:
     big = b
-    if c > b:
+    if c >= b:
         big = c
 
+if
 
 
 
 
 print(big)
-
+print(small)
+print(aver)
 
 
 
