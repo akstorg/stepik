@@ -27,8 +27,8 @@ if b >= a:
 
 
 print(big)
-print(small)
-print(aver)
+# print(small)
+# print(aver)
 
 
 
