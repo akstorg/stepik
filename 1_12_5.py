@@ -13,13 +13,14 @@ if b >= a:
     if c >= b:
         big = c
 
-if big ==c and a >= b:
+if big == c and a >= b:
     small = b
     aver = a
 elif big ==c and a <= b:
     small = a
     aver = b
-
+else:
+    print('other')
 print(big)
 print(small)
 print(aver)
