@@ -2,25 +2,32 @@ a = int(input())
 b = int(input())
 c = int(input())
 
-
-
 big = a
-small = c
 aver = b
+small = c
 
-if b >= a:
+if a >= b and a >= c:
+    big = a
+elif b >= a and b >=c:
     big = b
-    if c >= b:
-        big = c
-
-if big == c and a >= b:
-    small = b
-    aver = a
-elif big ==c and a <= b:
-    small = a
-    aver = b
 else:
-    print('other')
+    big = c
+
+
+# if b >= a:
+#     big = b
+#     if c >= b:
+#         big = c
+
+if a <= b and a <=c:
+    small = a
+elif b <= a and b <=c:
+    small = b
+else:
+    small = c
+
+aver = (a + b +c) - big - small
+
 print(big)
 print(small)
 print(aver)
